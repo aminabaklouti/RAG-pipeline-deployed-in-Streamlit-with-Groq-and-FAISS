@@ -1,0 +1,36 @@
+# --- Fichiers sensibles ---
+.env
+*.key
+*.secret
+
+# --- Environnements virtuels ---
+venv/
+myenv/
+env/
+.venv/
+
+# --- Cache Python ---
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# --- Logs & checkpoints ---
+*.log
+*.out
+*.err
+*.pid
+*.gz
+
+# --- VSCode & IDEs ---
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# --- Streamlit ---
+.streamlit/
+
+# --- Données temporaires ---
+.DS_Store
+Thumbs.db
